@@ -157,4 +157,14 @@ header {
   width: 30%;
 }
 
+/* Get started section */
+
+.get-started {
+  background-color: var(--light-purple);
+  text-align: center;
+}
+
+.get-started h2 {
+  color: var(--yellow-bg);
+}
 /* FOOTER */
