@@ -129,6 +129,10 @@ header {
 
 .testimonials .card {
   background-color: var(--light-purple);
+  text-align: center;
 }
 
+.testimonials img {
+  width: 60%;
+}
 /* FOOTER */
