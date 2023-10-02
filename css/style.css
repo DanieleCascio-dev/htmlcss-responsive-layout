@@ -63,6 +63,7 @@ header {
 .row {
   flex-wrap: wrap;
   padding: 1rem;
+  gap: 1rem;
 }
 
 .main-section .col:first-child {
@@ -75,7 +76,7 @@ header {
 .col {
   width: 100%;
   background-color: var(--light-blue-bg);
-  margin-bottom: 2rem;
+
   /* debug */
   min-height: 200px;
   border: 1px solid yellow;

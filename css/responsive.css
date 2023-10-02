@@ -7,6 +7,20 @@
 /* MOBILE FIRST */
 
 @media screen and (min-width: 768px) {
+  /* MAIN */
+
+  /* Main section */
+  .row {
+    gap: 1rem;
+  }
+
+  .main-section .col:first-child {
+    width: calc(100% - 100% / 3 - 0.5rem);
+  }
+
+  .col {
+    width: calc(100% / 3 - 2rem / 3);
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -17,5 +31,12 @@
 
   .menu-btn {
     display: none;
+  }
+
+  /* MAIN */
+
+  /* Main section */
+  .container {
+    width: 90%;
   }
 }
