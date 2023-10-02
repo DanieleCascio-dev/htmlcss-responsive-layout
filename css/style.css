@@ -56,6 +56,10 @@ main > * {
 .mb1 {
   margin-bottom: 1rem;
 }
+
+.mb2 {
+  margin-bottom: 2rem;
+}
 /* Typography */
 
 h2 {
@@ -134,5 +138,16 @@ header {
 
 .testimonials img {
   width: 60%;
+}
+
+/* Benefits section */
+
+.benefits {
+  background-color: var(--light-purple);
+}
+
+.benefits .row {
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 /* FOOTER */
