@@ -17,6 +17,10 @@
 body {
   font-family: "PT Sans", sans-serif;
 }
+
+img {
+  max-width: 100%;
+}
 /* Debug */
 body > * {
   border: 1px solid black;
@@ -49,6 +53,9 @@ main > * {
   padding: 1rem;
 }
 
+.mb1 {
+  margin-bottom: 1rem;
+}
 /* Typography */
 
 h2 {
@@ -116,6 +123,12 @@ header {
   min-width: 200px;
   background-color: #fff;
   border: 1px solid black;
+}
+
+/* Testimonials section */
+
+.testimonials .card {
+  background-color: var(--light-purple);
 }
 
 /* FOOTER */
