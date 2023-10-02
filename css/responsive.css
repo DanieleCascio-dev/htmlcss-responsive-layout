@@ -61,6 +61,12 @@
   .about-us .col:last-child {
     width: 40%;
   }
+
+  /********************************** Get started section  */
+
+  .get-started .container {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -98,5 +104,11 @@
 
   .benefits .col {
     width: calc(100% / 3 - 2rem / 3);
+  }
+
+  /********************************** Get started section  */
+
+  .get-started .container {
+    width: 50%;
   }
 }
