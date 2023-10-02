@@ -1,4 +1,9 @@
 :root {
+  --blue-bg: #0084fd;
+  --light-blue-bg: #b5ddff;
+  --light-purple: #9792e4;
+  --yellow-bg: #fdc15f;
+  --black-bg: #333333;
 }
 
 * {
@@ -6,3 +11,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: aqua;
+}
+
+/* COMMON */
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
