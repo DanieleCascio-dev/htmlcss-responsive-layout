@@ -45,6 +45,12 @@
     /* debug */
     min-height: 200px;
   }
+
+  /********************************** Benefits section */
+
+  .benefits .col {
+    width: calc(100% / 2 - 1rem);
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -76,5 +82,11 @@
 
   .card {
     margin-top: 6rem;
+  }
+
+  /********************************** Benefits section */
+
+  .benefits .col {
+    width: calc(100% / 3 - 2rem / 3);
   }
 }
