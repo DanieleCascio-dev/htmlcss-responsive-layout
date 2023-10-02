@@ -67,6 +67,12 @@
   .get-started .container {
     width: 80%;
   }
+
+  /*********************************** Footer */
+
+  footer .container {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -109,6 +115,12 @@
   /********************************** Get started section  */
 
   .get-started .container {
+    width: 50%;
+  }
+
+  /*********************************** Footer */
+
+  footer .container {
     width: 50%;
   }
 }
