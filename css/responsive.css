@@ -6,6 +6,9 @@
 
 /* MOBILE FIRST */
 
+@media screen and (min-width: 460px) {
+}
+
 @media screen and (min-width: 768px) {
   /* MAIN */
 
@@ -18,8 +21,18 @@
     width: calc(100% - 100% / 3 - 0.5rem);
   }
 
-  .col {
+  .main-section .col {
     width: calc(100% / 3 - 2rem / 3);
+  }
+
+  /* Strategic section */
+
+  .card {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%;
   }
 }
 
@@ -38,5 +51,19 @@
   /* Main section */
   .container {
     width: 90%;
+  }
+
+  /* Strategic section */
+
+  .strategic .row {
+    display: flex;
+  }
+
+  .strategic .col {
+    width: calc(100% / 2 - 2rem);
+  }
+
+  .card {
+    margin-top: 6rem;
   }
 }
