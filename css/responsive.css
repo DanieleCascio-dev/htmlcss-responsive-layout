@@ -51,6 +51,16 @@
   .benefits .col {
     width: calc(100% / 2 - 1rem);
   }
+
+  /*********************************** About us section  */
+
+  .about-us .col:first-child {
+    width: calc(60% - 1rem);
+  }
+
+  .about-us .col:last-child {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 992px) {
