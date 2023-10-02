@@ -6,6 +6,8 @@
   --black-bg: #333333;
 }
 
+/* RESET */
+
 * {
   padding: 0;
   margin: 0;
@@ -13,12 +15,46 @@
 }
 
 body {
-  background-color: aqua;
+  font-family: "PT Sans", sans-serif;
+}
+/* Debug */
+body > * {
+  border: 1px solid black;
 }
 
 /* COMMON */
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
 /* HEADER */
+
+header {
+  height: 80px;
+  background-color: var(--blue-bg);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  display: none;
+}
 
 /* MAIN */
 
