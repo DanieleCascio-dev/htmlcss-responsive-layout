@@ -371,10 +371,34 @@ header {
 .get-started {
   background-color: var(--light-purple);
   text-align: center;
+  color: var(--white);
+}
+
+.get-started h3:first-of-type {
+  color: #d5d4f4;
+  font-weight: lighter;
+}
+
+.get-started h3:nth-child(2) {
+  font-size: 2rem;
 }
 
 .get-started h2 {
   color: var(--yellow-bg);
+  font-size: 3rem;
+}
+
+.get-started p {
+  line-height: 1.5rem;
+}
+
+.get-started .btn {
+  letter-spacing: 0.2rem;
+  color: var(--light-purple);
+  width: 70%;
+  padding: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
 }
 
 /* FOOTER */
@@ -387,4 +411,8 @@ footer {
 
 footer .container {
   width: 80%;
+}
+
+footer a {
+  color: #9792e4;
 }
