@@ -46,7 +46,17 @@
   /********************************* Testimonials section  */
 
   .testimonials .card {
-    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonials .card .card-img {
+    width: 30%;
+  }
+
+  .testimonials .card .card-content {
+    width: 70%;
+    text-align: left;
   }
 
   .testimonials .card {
@@ -137,6 +147,12 @@
 
   .strategic .card {
     /* margin-top: 6rem; */
+  }
+
+  /********************************* Testimonials section  */
+
+  .testimonials .container {
+    width: 80%;
   }
 
   /********************************** Benefits section */
