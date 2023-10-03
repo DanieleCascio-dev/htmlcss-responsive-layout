@@ -157,8 +157,12 @@
 
   /********************************** Benefits section */
 
+  .benefits .container {
+    width: 80%;
+  }
+
   .benefits .col {
-    width: calc(100% / 3 - 2rem / 3);
+    width: calc(100% / 3 - 6rem / 3);
   }
 
   /********************************** Get started section  */
