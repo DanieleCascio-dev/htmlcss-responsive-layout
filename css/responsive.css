@@ -72,12 +72,16 @@
 
   /*********************************** About us section  */
 
+  .about-us .row {
+    gap: 2rem;
+  }
+
   .about-us .col:first-child {
     width: calc(60% - 1rem);
   }
 
   .about-us .col:last-child {
-    width: 40%;
+    width: calc(40% - 1rem);
   }
 
   /********************************** Get started section  */
