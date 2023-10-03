@@ -262,13 +262,31 @@ header {
 
 /* Testimonials section */
 
-.testimonials .card {
-  background-color: var(--light-purple);
+.testimonials {
   text-align: center;
 }
 
-.testimonials img {
-  width: 60%;
+.testimonials h2 {
+  color: var(--light-purple);
+  font-weight: bold;
+}
+
+.testimonials .card {
+  background-color: var(--light-purple);
+  text-align: center;
+  color: var(--white);
+  border-radius: 50px;
+}
+
+.testimonials .card-img img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonials .card-content p {
+  line-height: 1.8rem;
 }
 
 /* Benefits section */
