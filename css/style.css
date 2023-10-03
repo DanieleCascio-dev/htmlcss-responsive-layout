@@ -90,6 +90,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 /* Style */
 
 a {
@@ -221,15 +225,39 @@ header {
 
 .strategic {
   background-color: var(--light-purple);
+  color: var(--white);
+}
+
+.strategic .col:last-child {
+  background-color: var(--white);
+  color: #000;
+  text-align: center;
+}
+
+.strategic .card {
+}
+
+.strategic p {
+  line-height: 1.8rem;
 }
 
 .img {
   /* debug */
-  min-width: 200px;
+  /* min-width: 200px;
   min-height: 300px;
-  background-color: #b5ddff;
-  border: 1px solid blue;
+  background-color: #b5ddff; */
   margin-bottom: 2rem;
+}
+
+.strategic .card a {
+  display: block;
+}
+
+.planning-arrow {
+  background-color: var(--light-purple);
+  border-radius: 50%;
+
+  padding: 1rem;
 }
 
 /* Testimonials section */

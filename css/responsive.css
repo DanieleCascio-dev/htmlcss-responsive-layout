@@ -122,8 +122,13 @@
 
   /* Strategic section */
 
+  .strategic .container {
+    width: 60%;
+  }
+
   .strategic .row {
     display: flex;
+    align-items: flex-end;
   }
 
   .strategic .col {
@@ -131,7 +136,7 @@
   }
 
   .strategic .card {
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
   }
 
   /********************************** Benefits section */
