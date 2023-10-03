@@ -25,6 +25,14 @@
     width: calc(100% / 3 - 2rem / 3);
   }
 
+  /* .card-img {
+    justify-content: flex-start;
+  } */
+
+  .card-img img {
+    width: 60%;
+  }
+
   /******************************** Strategic section */
 
   .card {
@@ -92,6 +100,26 @@
     width: 70%;
   }
 
+  .main-section .card:first-child {
+    align-items: flex-end;
+  }
+
+  .card-content {
+    width: 50%;
+  }
+
+  .main-section .card .card-img {
+    width: 50%;
+  }
+
+  .card-img img {
+    width: 90%;
+  }
+
+  .main-btn .btn-blue {
+    width: 100%;
+  }
+
   /* Strategic section */
 
   .strategic .row {
@@ -102,7 +130,7 @@
     width: calc(100% / 2 - 2rem);
   }
 
-  .card {
+  .strategic .card {
     margin-top: 6rem;
   }
 

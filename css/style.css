@@ -6,6 +6,7 @@
   --black-bg: #333333;
   --white: #fff;
   --color-black: #000;
+  --color-gray: #5a6e7f;
 }
 
 /* RESET */
@@ -43,11 +44,19 @@ main > * {
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
 .space-between {
   justify-content: space-between;
 }
 
 .align-center {
+  align-items: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -95,13 +104,29 @@ ul {
   text-decoration: none;
 }
 
+.text-align {
+  text-align: center;
+}
 /* Button */
 
 .btn {
+  display: inline-block;
   padding: 0.5rem 1rem;
   background-color: var(--white);
   border-radius: 20px;
   color: var(--color-black);
+}
+
+.btn-blue {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--blue-bg);
+  border-radius: 20px;
+  color: var(--white);
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* HEADER */
@@ -141,7 +166,7 @@ header {
 .main-section .col:first-child {
   width: 100%;
   /* debug */
-  min-height: 400px;
+  /* min-height: 400px; */
   border: 1px solid yellow;
 }
 
@@ -149,10 +174,49 @@ header {
   width: 100%;
 
   /* debug */
-  min-height: 200px;
+  /* min-height: 200px; */
   border: 1px solid yellow;
+  border-radius: 15px;
 }
 
+.card {
+  /* debug */
+  min-width: 200px;
+  /* background-color: #fff; */
+}
+
+.main-section .card h2 {
+  color: var(--blue-bg);
+}
+
+.main-section .card p {
+  color: var(--color-gray);
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.card-content {
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.apple {
+  margin-right: 0.5rem;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-img img {
+  display: block;
+  width: 70%;
+}
+
+.card-icon {
+  color: var(--blue-bg);
+  font-size: 5rem;
+}
 /* Strategic section */
 
 .strategic {
@@ -166,14 +230,6 @@ header {
   background-color: #b5ddff;
   border: 1px solid blue;
   margin-bottom: 2rem;
-}
-
-.card {
-  /* debug */
-  min-height: 300px;
-  min-width: 200px;
-  background-color: #fff;
-  border: 1px solid black;
 }
 
 /* Testimonials section */
